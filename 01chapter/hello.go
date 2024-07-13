@@ -9,7 +9,9 @@ import (
 // main is the entry point for the program.
 // It prints a welcome message and calls functions from the api package.
 func main() {
-	fmt.Println("Welcome go language")
-	api.Test()
-	api.Sub()
+	//fmt.Println("Welcome go language")
+	//api.Test()
+	//api.Sub()
+	message := api.Greetings("shiv")
+	fmt.Println(message)
 }
